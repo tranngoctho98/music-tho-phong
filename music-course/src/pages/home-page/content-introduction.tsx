@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import styled from "styled-components";
-import dataHome from "../../assets/data-jsons/home/home-image.json";
 import IntroduceContent from "../introduce-page/introduce-content";
 
 const ContentIntroduction = () => {
@@ -8,14 +7,6 @@ const ContentIntroduction = () => {
     <ContentIntroductionStyled container direction="column">
       <Grid item className="title-content">
         Trung tâm Âm nhạc Sun Music
-      </Grid>
-      <Grid item className="image-1">
-        <img
-          className="image-contact"
-          src={`${dataHome.imageTop}`}
-          alt="logo-music"
-          loading="lazy"
-        />
       </Grid>
       <IntroduceContent />
     </ContentIntroductionStyled>

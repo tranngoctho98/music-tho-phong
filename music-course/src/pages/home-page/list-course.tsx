@@ -1,5 +1,4 @@
 import {
-  CardMedia,
   Grid,
   List,
   ListItem,
@@ -8,8 +7,10 @@ import {
 } from "@mui/material";
 import styled from "styled-components";
 import dataHome from "../../assets/data-jsons/home/home-image.json";
+import { useNavigate } from "react-router-dom";
 
 const ListCourse = () => {
+  const navigate = useNavigate();
   return (
     <ListCourseStyled item container direction="column">
       <Grid item className="title-list-course">
@@ -20,7 +21,11 @@ const ListCourse = () => {
           {dataHome.listCourse.map((value, index) => {
             return (
               <ListItem key={index} disablePadding>
-                <ListItemButton>
+                <ListItemButton
+                  onClick={() =>
+                    navigate("cac-khoa-hoc/" + (index + 1).toString())
+                  }
+                >
                   <ListItemText primary={value} />
                 </ListItemButton>
               </ListItem>
@@ -28,42 +33,6 @@ const ListCourse = () => {
           })}
         </List>
       </Grid>
-
-      <Grid item className="danh-cho-phu-huynh">
-        DÀNH CHO PHỤ HUYNH
-      </Grid>
-
-      <Grid item className="fanpage">
-        FANPAGE
-      </Grid>
-      <Grid item className="show-fanpage">
-        FANPAGE
-      </Grid>
-      <Grid item className="goc-tu-van">
-        GÓC TƯ VẤN
-      </Grid>
-      {dataHome.listTuVan.map((value, index) => {
-        return (
-          <Grid
-            key={index}
-            item
-            container
-            direction="row"
-            className="card-tu-van"
-          >
-            <Grid item xs={6}>
-              <CardMedia
-                component="img"
-                image={`${value.image}`}
-                alt="Live from space album cover"
-              />
-            </Grid>
-            <Grid item xs={6} className="content-tu-van">
-              {value.content}
-            </Grid>
-          </Grid>
-        );
-      })}
     </ListCourseStyled>
   );
 };

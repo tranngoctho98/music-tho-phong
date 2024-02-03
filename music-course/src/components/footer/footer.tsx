@@ -6,7 +6,7 @@ import { Box, Container } from "@mui/material";
 import styled from "styled-components";
 import contact from "../../assets/data-jsons/contact.json";
 import danPiano from "../../assets/images/dan-piano.jpg";
-import logoMusic from "../../assets/images/logo-music.svg";
+import logoMusic from "../../assets/images/logo-not-background.png";
 import theme from "../../theme/theme";
 
 const FooterComponent = () => {

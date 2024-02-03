@@ -14,11 +14,11 @@ import {
   Typography,
   useScrollTrigger,
 } from "@mui/material";
-import logoMusic from "../../assets/images/logo-music.svg";
+import logoMusic from "../../assets/images/logo-not-background.png";
 import styled from "styled-components";
 import menus from "../../assets/data-jsons/menu.json";
 import MenuComponent from "./menu";
-import ContactComponent from "./contact";
+import PhoneContactComponent from "./phone-contact";
 import React from "react";
 import theme from "../../theme/theme";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -103,35 +103,37 @@ const AppBarWeb = () => {
     <>
       <ElevationScroll>
         <AppBarStyled sx={{ height: 75 }}>
-          <Toolbar sx={{ xs: "flex", md: "none" }}>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="open drawer"
-              sx={{ mr: 2, display: { xs: "block", md: "none" } }}
-              onClick={toggleDrawer("left", true)}
+          <Box display={{ xs: "block", md: "none" }}>
+            <Toolbar>
+              <IconButton
+                size="large"
+                edge="start"
+                color="inherit"
+                aria-label="open drawer"
+                sx={{ mr: 2, display: { xs: "block", md: "none" } }}
+                onClick={toggleDrawer("left", true)}
+              >
+                <MenuIcon />
+              </IconButton>
+              <Typography
+                variant="h6"
+                noWrap
+                component="div"
+                sx={{ flexGrow: 1, display: { xs: "block", md: "none" } }}
+              >
+                SUN MUSIC
+              </Typography>
+            </Toolbar>
+            <SwipeableDrawer
+              anchor={"left"}
+              open={state["left"]}
+              onClose={toggleDrawer("left", false)}
+              onOpen={toggleDrawer("left", true)}
+              sx={{ xs: "flex", md: "none" }}
             >
-              <MenuIcon />
-            </IconButton>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: "block", md: "none" } }}
-            >
-              SUN MUSIC
-            </Typography>
-          </Toolbar>
-          <SwipeableDrawer
-            anchor={"left"}
-            open={state["left"]}
-            onClose={toggleDrawer("left", false)}
-            onOpen={toggleDrawer("left", true)}
-            sx={{ xs: "flex", md: "none" }}
-          >
-            {list("left")}
-          </SwipeableDrawer>
+              {list("left")}
+            </SwipeableDrawer>
+          </Box>
 
           <Container
             maxWidth="xl"
@@ -157,7 +159,7 @@ const AppBarWeb = () => {
               </Box>
 
               <Box sx={{ flexGrow: 0 }} display={{ xs: "none", lg: "block" }}>
-                <ContactComponent />
+                <PhoneContactComponent />
               </Box>
             </Toolbar>
           </Container>

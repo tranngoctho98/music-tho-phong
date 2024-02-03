@@ -7,34 +7,12 @@
     "/images/home/home-slide-5.jpg"
   ],
   "listCourse": [
-    "Khóa học đàn Piano thiếu nhi",
-    "Khóa học đàn Piano người lớn",
     "Khóa học đàn Piano cơ bản",
-    "Khóa học đàn Piano đệm hát",
-    "Khóa học Thanh Nhạc (cơ bản/ nâng cao)",
+    "Khóa học đàn Piano thiếu nhi",
+    "Khoá học đàn Piano người lớn",
     "Khóa học đàn Guitar cơ bản",
-    "Khóa học đàn Guitar đệm hát",
-    "Khóa học đàn Guitar nâng cao",
-    "Khóa học đàn Guitar Solo",
     "Khóa học đàn Organ thiếu nhi",
-    "Khóa học đàn Organ đào tạo Nhạc Công",
-    "Khóa học đàn Organ dành cho giáo viên Mầm Non",
-    "Khóa học đàn Ukulele (cơ bản/ nâng cao)",
-    "Khóa học đàn Violon"
-  ],
-  "listTuVan": [
-    {
-      "image": "/images/home/tu-van-1.jpg",
-      "content": "Khóa học hát Karaoke hiệu quả chất lượng tại Đà Nẵng"
-    },
-    {
-      "image": "/images/home/tu-van-2.jpg",
-      "content": "KHAI XUÂN QUÝ MÃO “ĐĂNG KÝ HỌC ĐÀN NGAY – GIẢM HỌC PHÍ LIỀN TAY”"
-    },
-    {
-      "image": "/images/home/tu-van-3.jpg",
-      "content": "Địa chỉ học đàn Piano uy tín & chất lượng cho mọi lứa tuổi tại Đà Nẵng"
-    }
+    "Khóa học Thanh nhạc cơ bản/nâng cao"
   ],
   "imageTop": "/images/home/content-1.jpg",
   "listImageContent": [

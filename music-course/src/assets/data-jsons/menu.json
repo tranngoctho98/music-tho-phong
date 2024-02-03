@@ -7,13 +7,33 @@
     "childMenu": [
       {
         "id": 2.1,
-        "nameMenu": "Khóa học đàn Piano đệm hát",
+        "nameMenu": "Khóa học đàn Piano cơ bản",
         "to": "1"
       },
       {
         "id": 2.2,
-        "nameMenu": "Khóa học đàn Piano đệm hát",
+        "nameMenu": "Khóa học đàn Piano thiếu nhi",
         "to": "2"
+      },
+      {
+        "id": 2.3,
+        "nameMenu": "Khoá học đàn Piano người lớn",
+        "to": "3"
+      },
+      {
+        "id": 2.4,
+        "nameMenu": "Khóa học đàn Guitar cơ bản",
+        "to": "4"
+      },
+      {
+        "id": 2.5,
+        "nameMenu": "Khóa học đàn Organ thiếu nhi",
+        "to": "5"
+      },
+      {
+        "id": 2.6,
+        "nameMenu": "Khóa học Thanh nhạc cơ bản/nâng cao",
+        "to": "6"
       }
     ]
   },
