@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import styled from "styled-components";
-import dataJson from "../../assets/data-jsons/contact/contact-information.json";
+import dataJson from "../../assets/data-jsons/contact.json";
 
 const ContactInformation = () => {
   return (
@@ -19,17 +19,20 @@ const ContactInformation = () => {
         rowSpacing={1}
       >
         <Grid item className="name-center">
-          {dataJson.nameCenter}
+          {dataJson.nameWebsite}
         </Grid>
         <Grid item>Địa chỉ : {dataJson.address}</Grid>
         <Grid item className="phone">
-          Hotline: <span>{dataJson.phoneNumber}</span>
+          Hotline:{" "}
+          <span>
+            {dataJson.numberPhone + " - " + dataJson.numberPhoneOther}{" "}
+          </span>
         </Grid>
         <Grid item className="email">
           Gmail: <span>{dataJson.email}</span>
         </Grid>
         <Grid item className="fanpage">
-          Fanpage : <a href={dataJson.fanpage}>{dataJson.fanpage}</a>
+          Fanpage : <a href={dataJson.facebook}>{dataJson.facebook}</a>
         </Grid>
         <Grid item>Hỗ trợ tư vấn miễn phí 24/7</Grid>
       </Grid>
