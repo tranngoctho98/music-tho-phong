@@ -1,0 +1,39 @@
+[
+  { "id": 1, "nameMenu": "GIỚI THIỆU", "to": "gioi-thieu" },
+  {
+    "id": 2,
+    "nameMenu": "CÁC KHÓA HỌC",
+    "to": "cac-khoa-hoc",
+    "childMenu": [
+      {
+        "id": 2.1,
+        "nameMenu": "Khóa học đàn Piano đệm hát",
+        "to": "1"
+      },
+      {
+        "id": 2.2,
+        "nameMenu": "Khóa học đàn Piano đệm hát",
+        "to": "2"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nameMenu": "NƠI MUA NHẠC CỤ",
+    "to": "noi-mua-nhac-cu",
+    "childMenu": [
+      { "id": 3.1, "nameMenu": "Đàn piano mới", "to": "piano-new" },
+      { "id": 3.2, "nameMenu": "Đàn piano cũ", "to": "piano-old" },
+      { "id": 3.3, "nameMenu": "Đàn Organ cũ", "to": "organ-old" },
+      { "id": 3.4, "nameMenu": "Đàn Organ mới", "to": "organ-new" },
+      { "id": 3.5, "nameMenu": "Guitar", "to": "guitar" },
+      { "id": 3.6, "nameMenu": "Ukulele", "to": "ukulele" },
+      { "id": 3.7, "nameMenu": "Violon", "to": "violon" },
+      { "id": 3.8, "nameMenu": "Phụ kiện", "to": "phu-kien" }
+    ]
+  },
+  { "id": 4, "nameMenu": "VIDEO", "to": "video" },
+  { "id": 5, "nameMenu": "HÌNH ẢNH HỌC VIÊN", "to": "hinh-anh-hoc-vien" },
+  { "id": 6, "nameMenu": "TIN TỨC", "to": "tin-tuc" },
+  { "id": 7, "nameMenu": "LIÊN HỆ", "to": "lien-he" }
+]
