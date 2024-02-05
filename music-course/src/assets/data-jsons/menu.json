@@ -52,7 +52,11 @@
       { "id": 3.8, "nameMenu": "Phụ kiện", "to": "phu-kien" }
     ]
   },
-  { "id": 4, "nameMenu": "VIDEO", "to": "video" },
+  {
+    "id": 4,
+    "nameMenu": "VIDEO",
+    "to": "https://www.youtube.com/@SunMusiccenter_DaNang"
+  },
   { "id": 5, "nameMenu": "HÌNH ẢNH HỌC VIÊN", "to": "hinh-anh-hoc-vien" },
   { "id": 6, "nameMenu": "TIN TỨC", "to": "tin-tuc" },
   { "id": 7, "nameMenu": "LIÊN HỆ", "to": "lien-he" }

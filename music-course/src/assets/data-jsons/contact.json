@@ -1,12 +1,13 @@
 {
   "nameWebsite": "Sun Music",
   "headingName": "TRUNG TÂM DẠY ĐÀN SUN MUSIC",
-  "email": "sun-music@gmail.com.vn",
-  "address": "Hàm Nghi,Quận Thanh Khê, Đà Nẵng",
+  "email": "sunmusic1008@gmail.com",
+  "address": "K77/5 Lê Độ, P. Chính Gián,Q. Thanh Khê, Tp. Đà Nẵng, Việt Nam",
   "numberPhone": "036.4344.203",
   "numberPhoneOther": "096.2789.108",
   "solution": "Sun Music – Mặt trời âm nhạc!",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/TramHuongThoPhan",
+  "youtube": "https://www.youtube.com/@SunMusiccenter_DaNang",
   "image": "/images/contact/contact-1.jpg",
-  "endFooter": " @2023 - By develop Tran Ngoc Tho"
+  "endFooter": "By develop Tran Ngoc Tho"
 }

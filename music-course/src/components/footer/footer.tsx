@@ -1,8 +1,6 @@
 import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LanguageIcon from "@mui/icons-material/Language";
-import TelegramIcon from "@mui/icons-material/Telegram";
-import { Box, Container, Grid } from "@mui/material";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Box, Grid, Link } from "@mui/material";
 import styled from "styled-components";
 import contact from "../../assets/data-jsons/contact.json";
 import danPiano from "../../assets/images/dan-piano.jpg";
@@ -38,11 +36,23 @@ const FooterComponent = () => {
           </Grid>
           <Grid item>Email: {" " + contact.email}</Grid>
           <Grid item container direction="row" py={3}>
-            <Grid item xs={6} md={3} className="item-child">
-              <FacebookIcon /> Facebook
+            <Grid item xs={6} md={3}>
+              <Link
+                className="item-child"
+                color="inherit"
+                href={contact.facebook}
+              >
+                <FacebookIcon sx={{ marginRight: 1 }} /> Facebook
+              </Link>
             </Grid>
-            <Grid item xs={6} md={3} className="item-child">
-              <InstagramIcon /> Instagram
+            <Grid item xs={6} md={3}>
+              <Link
+                className="item-child"
+                color="inherit"
+                href={contact.youtube}
+              >
+                <YouTubeIcon sx={{ marginRight: 1 }} /> Youtube
+              </Link>
             </Grid>
           </Grid>
         </Grid>
@@ -62,7 +72,7 @@ const FooterComponent = () => {
         className="develop"
         justifyContent="center"
       >
-        <p>{contact.endFooter}</p>
+        <p>{"@" + new Date().getFullYear() + " - " + contact.endFooter}</p> {}
       </Grid>
     </FooterStyled>
   );
@@ -78,10 +88,13 @@ const FooterStyled = styled(Box)`
     .develop {
       border-top: 1px solid #ffffff;
     }
-    div.item-child {
+    .item-child {
       font-size: 14px;
       display: inline-flex;
       align-items: center;
+    }
+    .item-child:hover {
+      text-decoration: underline;
     }
     a {
       outline: none !important;
