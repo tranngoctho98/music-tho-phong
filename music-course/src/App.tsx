@@ -4,17 +4,27 @@ import courseLoader from "./actions/loaders/course-loaders";
 import productLoader, {
   loaderAll as productLoaderAll,
 } from "./actions/loaders/product-loaders";
-import ContactPage from "./pages/contact-page/contact-page";
-import CourseDetailPage from "./pages/course-detail-page/course-detail-page";
-import CoursePage from "./pages/course-page/course-page";
-import NotFoundPage from "./pages/errors/not-found-page";
-import HomePage from "./pages/home-page/home-page";
-import IntroducePage from "./pages/introduce-page/Introduce-page";
-import NewsPage from "./pages/new-page/news-page";
-import PageWebsite from "./pages/page-website";
-import PictureStudentPage from "./pages/picture-student-page/picture-student-page";
-import ProductPage from "./pages/product-page/product-page";
-import ProductDetailPage from "./pages/product-detail-page/product-detail-page";
+import { Suspense, lazy } from "react";
+import { LinearProgress } from "@mui/material";
+const ContactPage = lazy(() => import("./pages/contact-page/contact-page"));
+const CourseDetailPage = lazy(
+  () => import("./pages/course-detail-page/course-detail-page")
+);
+const CoursePage = lazy(() => import("./pages/course-page/course-page"));
+const NotFoundPage = lazy(() => import("./pages/home-page/home-page"));
+const HomePage = lazy(() => import("./pages/home-page/home-page"));
+const IntroducePage = lazy(
+  () => import("./pages/introduce-page/Introduce-page")
+);
+const NewsPage = lazy(() => import("./pages/new-page/news-page"));
+const PictureStudentPage = lazy(
+  () => import("./pages/picture-student-page/picture-student-page")
+);
+const PageWebsite = lazy(() => import("./pages/page-website"));
+const ProductPage = lazy(() => import("./pages/product-page/product-page"));
+const ProductDetailPage = lazy(
+  () => import("./pages/product-detail-page/product-detail-page")
+);
 
 const router = createBrowserRouter([
   {
@@ -23,29 +33,80 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "gioi-thieu", element: <IntroducePage /> },
-      { path: "cac-khoa-hoc", element: <CoursePage /> },
+      {
+        path: "gioi-thieu",
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <IntroducePage />
+          </Suspense>
+        ),
+      },
+      {
+        path: "cac-khoa-hoc",
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <CoursePage />
+          </Suspense>
+        ),
+      },
       {
         path: "noi-mua-nhac-cu",
-        element: <ProductPage />,
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <ProductPage />
+          </Suspense>
+        ),
         loader: productLoaderAll,
       },
-      { path: "hinh-anh-hoc-vien", element: <PictureStudentPage /> },
-      { path: "tin-tuc", element: <NewsPage /> },
-      { path: "lien-he", element: <ContactPage /> },
+      {
+        path: "hinh-anh",
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <PictureStudentPage />
+          </Suspense>
+        ),
+      },
+      {
+        path: "thue-ca-si-ban-nhac",
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <NewsPage />
+          </Suspense>
+        ),
+      },
+      {
+        path: "lien-he",
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <ContactPage />
+          </Suspense>
+        ),
+      },
       {
         path: "cac-khoa-hoc/:courseId",
-        element: <CourseDetailPage />,
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <CourseDetailPage />
+          </Suspense>
+        ),
         loader: courseLoader,
       },
       {
         path: "noi-mua-nhac-cu/:productTypeId",
-        element: <ProductPage />,
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <ProductPage />
+          </Suspense>
+        ),
         loader: productLoader,
       },
       {
         path: "noi-mua-nhac-cu/:productTypeId/:productId",
-        element: <ProductDetailPage />,
+        element: (
+          <Suspense fallback={<LinearProgress />}>
+            <ProductDetailPage />
+          </Suspense>
+        ),
         loader: productLoader,
       },
     ],

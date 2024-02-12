@@ -3,13 +3,15 @@ import { Tooltip, TooltipProps, tooltipClasses } from "@mui/material";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { styled } from "@mui/material/styles";
+import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styledComponent from "styled-components";
 
-interface MenuCompnentProps {
+export interface MenuCompnentProps {
   id: number;
   nameMenu: string;
   to: string;
+  link?: string;
   childMenu?: MenuCompnentProps[];
 }
 
@@ -28,6 +30,20 @@ const MenuTooltip = styled(({ className, ...props }: TooltipProps) => (
 const MenuComponent = (p: MenuCompnentProps) => {
   const navigate = useNavigate();
 
+  const handleOnClickTo = useCallback(
+    (to1: string, to2?: string) => {
+      if (to2) {
+        navigate(to1 + "/" + to2);
+      } else {
+        navigate(to1);
+      }
+    },
+    [navigate]
+  );
+  const handleOnClickLink = useCallback((link: string) => {
+    window.open(link, "_blank");
+  }, []);
+
   return (
     <MenuComponentStyled>
       {p.childMenu && (
@@ -38,7 +54,7 @@ const MenuComponent = (p: MenuCompnentProps) => {
                 <MenuItem
                   key={menu.id}
                   disableRipple
-                  onClick={() => navigate(p.to + "/" + menu.to)}
+                  onClick={() => handleOnClickTo(p.to, menu.to)}
                 >
                   {menu.nameMenu}
                 </MenuItem>
@@ -56,7 +72,12 @@ const MenuComponent = (p: MenuCompnentProps) => {
         </MenuTooltip>
       )}
       {!p.childMenu && (
-        <Button className="button-name" onClick={() => navigate(p.to)}>
+        <Button
+          className="button-name"
+          onClick={() =>
+            p.link ? handleOnClickLink(p.link) : handleOnClickTo(p.to)
+          }
+        >
           {p.nameMenu}
         </Button>
       )}

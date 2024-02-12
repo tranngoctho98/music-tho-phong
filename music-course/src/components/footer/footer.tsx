@@ -3,9 +3,10 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box, Grid, Link } from "@mui/material";
 import styled from "styled-components";
 import contact from "../../assets/data-jsons/contact.json";
-import danPiano from "../../assets/images/dan-piano.jpg";
 import logoMusic from "../../assets/images/logo-not-background.png";
 import theme from "../../theme/theme";
+import MyComponent from "../maps/map";
+import { memo } from "react";
 
 const FooterComponent = () => {
   return (
@@ -15,7 +16,14 @@ const FooterComponent = () => {
       sx={{ background: theme.palette.primary.main }}
     >
       <Grid container direction="row" p={3}>
-        <Grid item xs={2} xl={2} paddingLeft={5} paddingTop={2}>
+        <Grid
+          item
+          xs={12}
+          md={2}
+          paddingLeft={{ xs: 2, md: 5 }}
+          paddingTop={2}
+          paddingRight={{ xs: 2, md: 0 }}
+        >
           <img
             className="logo-music"
             src={logoMusic}
@@ -23,8 +31,8 @@ const FooterComponent = () => {
             loading="lazy"
           />
         </Grid>
-        <Grid item container direction="column" xs={5} xl={5} rowGap={0.5}>
-          <Grid item>
+        <Grid item container direction="column" xs={12} md={5} rowGap={0.5}>
+          <Grid item textAlign={{ xs: "center", md: "left" }}>
             <h3 className="heading">{contact.headingName}</h3>
           </Grid>
           <Grid item>Địa chỉ: {" " + contact.address}</Grid>
@@ -36,7 +44,7 @@ const FooterComponent = () => {
           </Grid>
           <Grid item>Email: {" " + contact.email}</Grid>
           <Grid item container direction="row" py={3}>
-            <Grid item xs={6} md={3}>
+            <Grid item xs>
               <Link
                 className="item-child"
                 color="inherit"
@@ -45,7 +53,7 @@ const FooterComponent = () => {
                 <FacebookIcon sx={{ marginRight: 1 }} /> Facebook
               </Link>
             </Grid>
-            <Grid item xs={6} md={3}>
+            <Grid item xs>
               <Link
                 className="item-child"
                 color="inherit"
@@ -57,13 +65,8 @@ const FooterComponent = () => {
           </Grid>
         </Grid>
 
-        <Grid item xs={5} xl={5} p={2}>
-          <img
-            className="dan-piano"
-            src={danPiano}
-            alt="logo-music"
-            loading="lazy"
-          />
+        <Grid item xs={12} md={5} p={2}>
+          <MyComponent />
         </Grid>
       </Grid>
       <Grid
@@ -103,4 +106,4 @@ const FooterStyled = styled(Box)`
   }
 `;
 
-export default FooterComponent;
+export default memo(FooterComponent);

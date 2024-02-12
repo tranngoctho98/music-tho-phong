@@ -1,93 +1,156 @@
-import { Box, Typography } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import {
+  Box,
+  Button,
+  Menu,
+  MenuItem,
+  MenuProps,
+  Typography,
+} from "@mui/material";
+import React from "react";
 import styled from "styled-components";
-import contact from "../../assets/data-jsons/contact.json";
+import contactData from "../../assets/data-jsons/contact.json";
+
+const StyledMenu = styled((props: MenuProps) => (
+  <Menu
+    elevation={0}
+    anchorOrigin={{
+      vertical: "bottom",
+      horizontal: "right",
+    }}
+    transformOrigin={{
+      vertical: "top",
+      horizontal: "right",
+    }}
+    {...props}
+  />
+))(({ theme }) => ({
+  "& .MuiPaper-root": {
+    borderRadius: 10,
+    minWidth: 180,
+    ".MuiList-root": {
+      padding: 0,
+      ".MuiMenuItem-root": {
+        paddingBlock: 0,
+        fontSize: "16px",
+      },
+    },
+  },
+}));
 
 const ContactComponent = () => {
+  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const open = Boolean(anchorEl);
+  const handleClickListItem = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
-    <ContactStyled className="widget-wrap populated">
-      <Box className="widget-heading-1">
-        <Box className="widget-container">
+    <ContactStyled>
+      <Button
+        className="button-hotline"
+        variant="outlined"
+        startIcon={<PhoneInTalkIcon />}
+        endIcon={<ExpandMoreIcon />}
+        onClick={handleClickListItem}
+      >
+        Hotline
+      </Button>
+      <StyledMenu
+        id="lock-menu"
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        MenuListProps={{
+          "aria-labelledby": "lock-button",
+          role: "listbox",
+        }}
+      >
+        <Typography
+          sx={{
+            padding: "13px 17px",
+            textAlign: "center",
+            fontWeight: 600,
+            background: "#e0ebfa",
+            fontSize: "12px",
+          }}
+        >
+          Giảng Viên Trần Thị Ánh Nhi
+        </Typography>
+        <MenuItem>
           <Typography
             className="heading-title"
             component="a"
-            href={"tel:" + contact.numberPhone}
+            sx={{
+              textDecoration: "none",
+              color: "#b9131a",
+              fontWeight: 600,
+              display: "inline-flex",
+              alignItems: "center",
+              padding: "10px",
+            }}
+            href={"tel:" + contactData.numberPhone}
           >
-            Call Us: {contact.numberPhone}
+            <PhoneInTalkIcon sx={{ padding: "2px", marginRight: "20px" }} />
+            <span>{contactData.numberPhone}</span>
           </Typography>
-        </Box>
-      </Box>
-      <Box className="widget-heading-2" display={{ xs: "none", xl: "block" }}>
-        <Box className="widget-container">
+        </MenuItem>
+        <Typography
+          sx={{
+            padding: "13px 17px",
+            textAlign: "center",
+            fontWeight: 600,
+            background: "#e0ebfa",
+            fontSize: "12px",
+          }}
+        >
+          Giảng Viên Phan Văn Thọ
+        </Typography>
+        <MenuItem>
           <Typography
             className="heading-title"
             component="a"
-            href={"tel:" + contact.numberPhone}
+            sx={{
+              textDecoration: "none",
+              color: "#b9131a",
+              fontWeight: 600,
+              display: "inline-flex",
+              alignItems: "center",
+              padding: "10px",
+            }}
+            href={"tel:" + contactData.numberPhoneOther}
           >
-            CONTACT TODAY
+            <PhoneInTalkIcon sx={{ padding: "2px", marginRight: "20px" }} />
+            <span>{contactData.numberPhoneOther}</span>
           </Typography>
-        </Box>
-      </Box>
+        </MenuItem>
+      </StyledMenu>
     </ContactStyled>
   );
 };
 
 const ContactStyled = styled(Box)`
-  &&.widget-wrap {
-    align-content: center;
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
-    position: relative;
-    width: 100%;
-    flex-wrap: wrap;
-  }
-
-  &&.populated {
-    margin: -5px 0;
-    --e-column-margin-right: 0px;
-    --e-column-margin-left: 0px;
-    padding: 10px;
-  }
-
-  .widget-heading-1 {
-    width: auto;
-    max-width: 100%;
-    .widget-container {
-      padding: 8px 60px 8px 20px;
-      background-color: #fff;
-      border-radius: 100px;
-      transition: background 0.3s, border 0.3s, border-radius 0.3s,
-        box-shadow 0.3s, transform var(--e-transform-transition-duration, 0.4s);
-
-      .heading-title {
-        padding: 0;
-        margin: 0;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1;
-        color: #03124e;
-        box-shadow: none;
-        text-decoration: none;
+  && {
+    .MuiButton-root.button-hotline {
+      background: aliceblue;
+      border-radius: 20px !important;
+      .MuiButton-startIcon {
+        background: #4e80d9;
+        border-radius: 50%;
+        padding: 2px;
+        color: #fff;
       }
     }
-  }
-  .widget-heading-2 {
-    width: auto;
-    max-width: 100%;
-    .widget-container {
-      margin: 0 0 0 -35px;
-      padding: 8px 20px;
-      background-color: #e52323;
-      border-radius: 100px;
-      transition: background 0.3s, border 0.3s, border-radius 0.3s,
-        box-shadow 0.3s, transform var(--e-transform-transition-duration, 0.4s);
-
-      .heading-title {
-        color: #fff;
-        font-size: 14px;
-        box-shadow: none;
-        text-decoration: none;
-      }
+    .heading-title {
+      color: #fff;
+      font-size: 14px;
+      box-shadow: none;
+      text-decoration: none;
     }
   }
 `;

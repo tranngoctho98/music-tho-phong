@@ -1,4 +1,6 @@
 {
+  "imageTitleCourse": "/images/course/course-title.png",
+
   "imageSlideShow": [
     "/images/home/home-slide-1.jpg",
     "/images/home/home-slide-2.jpg",
@@ -7,19 +9,19 @@
     "/images/home/home-slide-5.jpg"
   ],
   "listCourse": [
-    "Khóa học đàn Piano cơ bản",
-    "Khóa học đàn Piano thiếu nhi",
-    "Khoá học đàn Piano người lớn",
-    "Khóa học đàn Guitar cơ bản",
-    "Khóa học đàn Organ thiếu nhi",
-    "Khóa học Thanh nhạc cơ bản/nâng cao"
+    "Piano cơ bản",
+    "Piano thiếu nhi",
+    "Piano người lớn",
+    "Guitar cơ bản",
+    "Organ thiếu nhi",
+    "Thanh nhạc cơ bản/nâng cao"
   ],
   "imageTop": "/images/home/content-1.jpg",
   "listImageContent": [
     {
       "img": "/images/home/home-content-1.jpg",
       "title": "Breakfast",
-      "rows": 2,
+      "rows": 4,
       "cols": 2
     },
     {
@@ -38,19 +40,32 @@
       "img": "/images/home/home-content-4.jpg",
       "title": "Coffee",
       "rows": 2,
-      "cols": 1
+      "cols": 2
     },
     {
       "img": "/images/home/home-content-5.jpg",
       "title": "Hats",
       "rows": 2,
-      "cols": 1
+      "cols": 2
     },
     {
       "img": "/images/home/home-content-6.jpg",
       "title": "Honey",
       "author": "@arwinneil",
       "rows": 2,
+      "cols": 2
+    },
+    {
+      "img": "/images/home/home-content-4.jpg",
+      "title": "Coffee",
+      "rows": 1,
+      "cols": 4
+    },
+    {
+      "img": "/images/home/home-content-6.jpg",
+      "title": "Honey",
+      "author": "@arwinneil",
+      "rows": 1,
       "cols": 2
     }
   ]

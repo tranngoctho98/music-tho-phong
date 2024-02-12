@@ -1,6 +1,7 @@
 import { Grid, ImageList, ImageListItem } from "@mui/material";
-import ContentWrite from "./content-write";
 import dataHome from "../../assets/data-jsons/home/home-image.json";
+import ContentList from "../../components/content-renders/content-list";
+import dataContent from "../../assets/data-jsons/home/home-content.json";
 
 function srcset(image: string, size: number, rows = 1, cols = 1) {
   return {
@@ -18,14 +19,20 @@ const IntroduceContent = () => {
         <ImageList
           variant="quilted"
           className="home-group-image"
-          cols={4}
-          rowHeight={121}
+          cols={6}
+          rowHeight={150}
         >
-          {dataHome.listImageContent.map((item) => (
+          {dataHome.listImageContent.map((item, index) => (
             <ImageListItem
               key={item.img}
               cols={item.cols || 1}
               rows={item.rows || 1}
+              sx={{
+                display: {
+                  xs: index < 6 ? "none" : "block",
+                  md: index < 6 ? "block" : "none",
+                },
+              }}
             >
               <img
                 {...srcset(`${item.img}`, 121, item.rows, item.cols)}
@@ -37,7 +44,7 @@ const IntroduceContent = () => {
         </ImageList>
       </Grid>
       <Grid item>
-        <ContentWrite />
+        <ContentList listContent={dataContent} />
       </Grid>
     </>
   );

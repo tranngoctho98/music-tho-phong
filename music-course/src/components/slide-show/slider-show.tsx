@@ -34,7 +34,8 @@ const SlideShowStyled = styled.div`
   }
 
   &&.container-slide img {
-    height: 500px;
+    max-height: 500px;
+    min-height: 200px;
     width: 100%;
   }
 `;

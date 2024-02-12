@@ -1,20 +1,41 @@
-{
-  "line3": "Ngày nay, khi nhịp sống hối hả đã làm bạn cuốn theo với quá nhiều mối lo và áp lực cuộc sống, đặc biệt là ở những thành phố lớn và Đà Nẵng là một trong số đó. Vì vậy hãy để âm nhạc nói chung và piano nói riêng được hoàn thành trọn vẹn sứ mệnh của nó – lấy những thanh âm trong trẻo nhất để mang lại cho bạn sự thảnh thơi trong tâm hồn.",
-  "line5": {
-    "item1": "Sun Music",
-    "item2": " với đội ngũ giáo viên tận tụy và nhiệt thành sẽ tạo nên một môi trường giáo dục nghệ thuật chuyên nghiệp với nền tảng:"
+[
+  {
+    "text": "Ngày nay, khi nhịp sống hối hả đã làm bạn cuốn theo với quá nhiều mối lo và áp lực cuộc sống, đặc biệt là ở những thành phố lớn và Đà Nẵng là một trong số đó. Vì vậy hãy để âm nhạc nói chung và piano nói riêng được hoàn thành trọn vẹn sứ mệnh của nó – lấy những thanh âm trong trẻo nhất để mang lại cho bạn sự thảnh thơi trong tâm hồn."
   },
-
-  "line7": {
-    "item1": "",
-    "listItem": [
-      "Hệ thống giáo trình được xây dựng khoa học, sáng tạo, đổi mới liên tục",
-      "Đội ngũ giáo viên có trình độ chuyên môn cao: nhiệt tình, trách nhiệm, dày dặn kinh nghiệm cho sự tiếp thu dễ dàng.",
-      "Mức học phí hợp lí, học viên sẽ được ưu đãi khi mua nhạc cụ.",
-      "Thời gian học được sắp xếp phù hợp nhất cho học viên, có thể linh động cho người đi làm."
+  {
+    "htmlType": "many-span-text",
+    "listText": [
+      { "className": "bold", "text": "Sun Music" },
+      {
+        "text": " với đội ngũ giáo viên tận tụy và nhiệt thành sẽ tạo nên một môi trường giáo dục nghệ thuật chuyên nghiệp với nền tảng:"
+      }
     ]
   },
-  "line11": "Đến với Sun Music bạn sẽ hòa mình vào môi trường học tập thân thiện, tích cực, cởi mở, giúp học viên dễ dàng tìm kiếm, đăng kí và học tập lâu dài.",
-  "line12": "Chúng tôi xin chân thành cảm ơn Quý Phụ Huynh và Học Viên đã tin tưởng và lựa chọn TRUNG TÂM ÂM NHẠC SUN MUSIC để nuôi dưỡng và đồng hành trên con đường chinh phục âm nhạc.",
-  "line13": "Hãy để chúng tôi cùng bạn đồng hành trên con đường phát triển toàn diện và thành công của bạn."
-}
+
+  {
+    "htmlType": "ul",
+    "listText": [
+      {
+        "text": "Hệ thống giáo trình được xây dựng khoa học, sáng tạo, đổi mới liên tục"
+      },
+      {
+        "text": "Đội ngũ giáo viên có trình độ chuyên môn cao: nhiệt tình, trách nhiệm, dày dặn kinh nghiệm cho sự tiếp thu dễ dàng."
+      },
+      {
+        "text": "Mức học phí hợp lí, học viên sẽ được ưu đãi khi mua nhạc cụ."
+      },
+      {
+        "text": "Thời gian học được sắp xếp phù hợp nhất cho học viên, có thể linh động cho người đi làm."
+      }
+    ]
+  },
+  {
+    "text": "Đến với Sun Music bạn sẽ hòa mình vào môi trường học tập thân thiện, tích cực, cởi mở, giúp học viên dễ dàng tìm kiếm, đăng kí và học tập lâu dài."
+  },
+  {
+    "text": "Chúng tôi xin chân thành cảm ơn Quý Phụ Huynh và Học Viên đã tin tưởng và lựa chọn TRUNG TÂM ÂM NHẠC SUN MUSIC để nuôi dưỡng và đồng hành trên con đường chinh phục âm nhạc."
+  },
+  {
+    "text": "Hãy để chúng tôi cùng bạn đồng hành trên con đường phát triển toàn diện và thành công của bạn."
+  }
+]

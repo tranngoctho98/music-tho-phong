@@ -34,7 +34,10 @@ const BreadcrumbsComponent = (props: BreadcrumbsProps) => {
         </Box>
       ) : (
         <>
-          <div className="bread-crumbs-not-image">
+          <Box
+            className="bread-crumbs-not-image"
+            sx={{ marginInline: { xs: 1, lg: "160px" } }}
+          >
             <Breadcrumbs className="bread-crumbs">
               <Link className="bread-home" href="/">
                 <HomeIcon sx={{ mr: 0.5 }} fontSize="small" />
@@ -52,7 +55,7 @@ const BreadcrumbsComponent = (props: BreadcrumbsProps) => {
               </Link>
             </Breadcrumbs>
             <Box className="name-page">{props.title}</Box>
-          </div>
+          </Box>
         </>
       )}
     </BreadcrumbsStyled>
@@ -128,7 +131,6 @@ const BreadcrumbsStyled = styled.div<{ $imageCover?: string }>`
 
   div.bread-crumbs-not-image {
     padding: 10px;
-    margin-inline: 160px;
     margin-top: 20px;
     .name-page {
       margin-block: 20px;

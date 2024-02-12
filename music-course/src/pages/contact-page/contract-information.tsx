@@ -36,14 +36,6 @@ const ContactInformation = () => {
         </Grid>
         <Grid item>Hỗ trợ tư vấn miễn phí 24/7</Grid>
       </Grid>
-      <Grid item className="image-info">
-        <img
-          className="image-contact"
-          src={`${dataJson.image}`}
-          alt="logo-music"
-          loading="lazy"
-        />
-      </Grid>
     </ContactInformationStyled>
   );
 };
@@ -72,11 +64,12 @@ const ContactInformationStyled = styled(Grid)`
       text-align: left;
       max-width: 100%;
       height: auto;
-
       img {
         height: auto;
         max-width: 100%;
         vertical-align: top;
+        width: 100%;
+        max-height: 430px;
       }
     }
   }

@@ -55,9 +55,14 @@
   {
     "id": 4,
     "nameMenu": "VIDEO",
-    "to": "https://www.youtube.com/@SunMusiccenter_DaNang"
+    "to": "https://www.youtube.com/channel/UC7x2MF_Edzz6mSZORtYxkDg?zdlink=Uo9XRcHoRsba8ZeYOszjBcTlRsTiPIvXRcHoRsbaBdblTNHrOcKYB29fRtCYEdiYSsDePMrbNtLoR28w8dfXR6yjDJGqC30tDZOqEbmlN2yYB29XS71fP28w8ZKqD30mDpOsD29zVG",
+    "link": "https://www.youtube.com/channel/UC7x2MF_Edzz6mSZORtYxkDg?zdlink=Uo9XRcHoRsba8ZeYOszjBcTlRsTiPIvXRcHoRsbaBdblTNHrOcKYB29fRtCYEdiYSsDePMrbNtLoR28w8dfXR6yjDJGqC30tDZOqEbmlN2yYB29XS71fP28w8ZKqD30mDpOsD29zVG"
   },
-  { "id": 5, "nameMenu": "HÌNH ẢNH HỌC VIÊN", "to": "hinh-anh-hoc-vien" },
-  { "id": 6, "nameMenu": "TIN TỨC", "to": "tin-tuc" },
+  { "id": 5, "nameMenu": "HÌNH ẢNH", "to": "hinh-anh" },
+  {
+    "id": 6,
+    "nameMenu": "THUÊ CA SĨ VÀ BAN NHẠC",
+    "to": "thue-ca-si-ban-nhac"
+  },
   { "id": 7, "nameMenu": "LIÊN HỆ", "to": "lien-he" }
 ]

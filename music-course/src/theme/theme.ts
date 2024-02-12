@@ -88,8 +88,7 @@ const theme = createTheme({
     h4: { fontSize: "1.5625rem", lineHeight: 1.28 },
     h5: { fontSize: "1.25rem", lineHeight: 1.4 },
     h6: { fontSize: "1rem", lineHeight: 1.5 },
-    fontFamily:
-      '"Noto Sans JP", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;',
+    fontFamily: '"Nunito", sans-serif;',
   },
 
   components: {

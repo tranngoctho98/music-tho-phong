@@ -1,41 +1,78 @@
-import {
-  Grid,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemText,
-} from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import styled from "styled-components";
 import dataHome from "../../assets/data-jsons/home/home-image.json";
-import { useNavigate } from "react-router-dom";
 
 const ListCourse = () => {
-  const navigate = useNavigate();
   return (
     <ListCourseStyled item container direction="column">
-      <Grid item className="title-list-course">
-        DANH SÁCH CÁC KHÓA HỌC NỔI BẬT
+      <Grid item className="title" textAlign="center">
+        <img src={dataHome.imageTitleCourse} alt="title" loading="lazy" />
       </Grid>
-      <Grid item className="list-course">
-        <List>
-          {dataHome.listCourse.map((value, index) => {
-            return (
-              <ListItem key={index} disablePadding>
-                <ListItemButton
-                  onClick={() =>
-                    navigate("cac-khoa-hoc/" + (index + 1).toString())
-                  }
-                >
-                  <ListItemText primary={value} />
-                </ListItemButton>
-              </ListItem>
-            );
-          })}
-        </List>
+      <Grid item container direction="row" justifyContent="center" gap={3}>
+        {dataHome.listCourse.map((value, index) => {
+          return (
+            <Grid key={index} item xs={5.5} md={3.25}>
+              <ItemCourse text={value} index={index} />
+            </Grid>
+          );
+        })}
       </Grid>
     </ListCourseStyled>
   );
 };
+
+interface ItemCourseProps {
+  index: number;
+  text: string;
+}
+
+const ItemCourse = (props: ItemCourseProps) => {
+  return (
+    <ItemCourseStyled href={"cac-khoa-hoc/" + (props.index + 1).toString()}>
+      <Typography
+        className="item1"
+        sx={{ display: { xs: "none", md: "block" } }}
+      >
+        Khóa học
+      </Typography>
+      <div className="item2"> {props.text}</div>
+    </ItemCourseStyled>
+  );
+};
+
+const ItemCourseStyled = styled.a`
+  && {
+    flex-direction: column;
+    background-color: transparent;
+    background-image: linear-gradient(125deg, #6b3d97 15%, #d1228a 85%);
+    padding: 10px;
+    min-height: 195px;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    overflow: visible;
+    text-decoration: none;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Nunito", Sans-serif;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+
+    .item1 {
+      font-size: 24px;
+    }
+
+    .item2 {
+      font-size: 28px;
+    }
+  }
+  &&:hover {
+    background-image: linear-gradient(125deg, #009be6 0%, #7500ca 70%);
+  }
+`;
 
 const ListCourseStyled = styled(Grid)`
   .title-list-course,

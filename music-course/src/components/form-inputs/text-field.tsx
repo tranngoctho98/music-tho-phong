@@ -1,24 +1,60 @@
-import { FormControl, OutlinedInput, OutlinedInputProps } from "@mui/material";
+import { Controller, UseControllerProps } from "react-hook-form";
 import styled from "styled-components";
+import UncontrolledTextField, {
+  TextFieldProps as UncontrolledTextFieldProps,
+  InputProps,
+} from "../inputs/text-field";
+import { Any } from "../../constants/types";
 
-const TextField = (props: OutlinedInputProps) => {
+// CONSTANT
+
+export type TextFieldProps = UncontrolledTextFieldProps & {
+  name: string;
+  control?: UseControllerProps["control"]; //Control<Record<string, any>>;
+  defaultValue?: string | number | boolean;
+  messageErr?: string;
+  height?: string;
+  isNumber?: boolean;
+} & InputProps;
+
+export default function TextField({
+  control,
+  required,
+  defaultValue,
+  name,
+  height,
+  inputProps,
+  ...rest
+}: TextFieldProps) {
   return (
-    <TextFieldStyled fullWidth>
-      <OutlinedInput fullWidth size="small" {...props} />
-    </TextFieldStyled>
+    <Controller
+      name={name}
+      control={control}
+      defaultValue={defaultValue}
+      render={({ field: { onChange, value = "" }, fieldState: { error } }) => (
+        <UncontrolledTextFieldStyled
+          value={value ?? ""}
+          onChange={onChange}
+          error={!!error}
+          height={height}
+          helperText={!!error ? error.message : null}
+          inputProps={{
+            ...inputProps,
+            "data-testid": name,
+          }}
+          {...rest}
+        />
+      )}
+      rules={{ required }}
+    />
   );
-};
+}
 
-const TextFieldStyled = styled(FormControl)`
-  .MuiOutlinedInput-root .MuiOutlinedInput-input {
-    height: 34px;
-    padding: 0 10px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-  }
-  .MuiOutlinedInput-root.MuiInputBase-multiline {
-    padding: 0;
+const UncontrolledTextFieldStyled = styled<Any>(UncontrolledTextField)`
+  .MuiOutlinedInput-input {
+    height: ${(props) => (props.height ? props.height : "")};
+    &::placeholder {
+      font-size: 13px;
+    }
   }
 `;
-
-export default TextField;

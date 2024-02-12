@@ -6,7 +6,7 @@ const ContentIntroduction = () => {
   return (
     <ContentIntroductionStyled container direction="column">
       <Grid item className="title-content">
-        Trung tâm Âm nhạc Sun Music
+        Sun Music – Mặt trời âm nhạc!
       </Grid>
       <IntroduceContent />
     </ContentIntroductionStyled>
@@ -16,8 +16,6 @@ const ContentIntroduction = () => {
 const ContentIntroductionStyled = styled(Grid)`
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 30px;
   .title-content {
     color: #1e73be;
     text-align: left;
@@ -26,9 +24,6 @@ const ContentIntroductionStyled = styled(Grid)`
     font-style: normal;
     font-size: 30px;
     margin-bottom: 10px;
-  }
-  .image-1 {
-    margin-bottom: 35px;
   }
   .home-group-image {
     height: auto;

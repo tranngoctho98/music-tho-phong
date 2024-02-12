@@ -3,8 +3,10 @@ import styled from "styled-components";
 import TextField from "../../components/form-inputs/text-field";
 import Button from "../../components/buttons/button";
 import CheckBox from "../../components/form-inputs/check-box";
+import { useForm } from "react-hook-form";
 
 const FormComment = () => {
+  const { control } = useForm();
   return (
     <form>
       <FormCommentStyled container direction="column">
@@ -23,7 +25,12 @@ const FormComment = () => {
               Name*
             </Grid>
             <Grid item>
-              <TextField placeholder="Name*" />
+              <TextField
+                placeholder="Name*"
+                control={control}
+                name="name"
+                fullWidth
+              />
             </Grid>
           </Grid>
           <Grid item>
@@ -31,13 +38,23 @@ const FormComment = () => {
               Email*
             </Grid>
             <Grid item>
-              <TextField placeholder="Email*" />
+              <TextField
+                placeholder="Email*"
+                control={control}
+                name="email"
+                fullWidth
+              />
             </Grid>
           </Grid>
           <Grid item>
             <Grid item> Website</Grid>
             <Grid item>
-              <TextField placeholder="Website" />
+              <TextField
+                placeholder="Website"
+                control={control}
+                name="website"
+                fullWidth
+              />
             </Grid>
           </Grid>
           <Grid item>
@@ -45,7 +62,14 @@ const FormComment = () => {
               Comment
             </Grid>
             <Grid item>
-              <TextField multiline rows={5} placeholder="message:" />
+              <TextField
+                multiline
+                rows={5}
+                placeholder="message:"
+                control={control}
+                fullWidth
+                name="comment"
+              />
             </Grid>
           </Grid>
           <Grid item>
