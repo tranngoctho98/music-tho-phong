@@ -6,24 +6,22 @@ import productLoader, {
 } from "./actions/loaders/product-loaders";
 import { Suspense, lazy } from "react";
 import { LinearProgress } from "@mui/material";
-const ContactPage = lazy(() => import("./pages/contact-page/contact-page"));
+const ContactPage = lazy(() => import("./app/contact-page/contact-page"));
 const CourseDetailPage = lazy(
-  () => import("./pages/course-detail-page/course-detail-page")
+  () => import("./app/course-detail-page/course-detail-page")
 );
-const CoursePage = lazy(() => import("./pages/course-page/course-page"));
-const NotFoundPage = lazy(() => import("./pages/home-page/home-page"));
-const HomePage = lazy(() => import("./pages/home-page/home-page"));
-const IntroducePage = lazy(
-  () => import("./pages/introduce-page/Introduce-page")
-);
-const NewsPage = lazy(() => import("./pages/new-page/news-page"));
+const CoursePage = lazy(() => import("./app/course-page/course-page"));
+const NotFoundPage = lazy(() => import("./app/home-page/home-page"));
+const HomePage = lazy(() => import("./app/home-page/home-page"));
+const IntroducePage = lazy(() => import("./app/introduce-page/Introduce-page"));
+const NewsPage = lazy(() => import("./app/new-page/news-page"));
 const PictureStudentPage = lazy(
-  () => import("./pages/picture-student-page/picture-student-page")
+  () => import("./app/picture-student-page/picture-student-page")
 );
-const PageWebsite = lazy(() => import("./pages/page-website"));
-const ProductPage = lazy(() => import("./pages/product-page/product-page"));
+const PageWebsite = lazy(() => import("./app/page-website"));
+const ProductPage = lazy(() => import("./app/product-page/product-page"));
 const ProductDetailPage = lazy(
-  () => import("./pages/product-detail-page/product-detail-page")
+  () => import("./app/product-detail-page/product-detail-page")
 );
 
 const router = createBrowserRouter([

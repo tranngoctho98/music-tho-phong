@@ -24,7 +24,7 @@ const IntroduceContent = () => {
         >
           {dataHome.listImageContent.map((item, index) => (
             <ImageListItem
-              key={item.img}
+              key={index}
               cols={item.cols || 1}
               rows={item.rows || 1}
               sx={{

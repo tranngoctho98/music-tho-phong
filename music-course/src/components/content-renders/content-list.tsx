@@ -14,7 +14,7 @@ const ContentList = (props: ContentListProps) => {
       {props.listContent.map((value, index) => {
         return (
           <Grid key={index} item sx={{ textAlign: value.position || "left" }}>
-            <ContentRenders {...value} />
+            <ContentRenders key={index} {...value} />
           </Grid>
         );
       })}
