@@ -19,11 +19,26 @@ const MenuTooltip = styled(({ className, ...props }: TooltipProps) => (
   <Tooltip {...props} classes={{ popper: className }} />
 ))(({ theme }) => ({
   [`& .${tooltipClasses.tooltip}`]: {
-    backgroundColor: "#f5f5f9",
+    backgroundColor: "#fff",
     color: "rgba(0, 0, 0, 0.87)",
-    // maxWidth: 220,
     fontSize: theme.typography.pxToRem(12),
     border: "1px solid #dadde9",
+    minWidth: "350px",
+    borderRadius: "30px",
+    padding: "10px 20px",
+    boxShadow: "0px 20px 60px -20px rgba(135, 135, 135, 0.25)",
+    ".MuiMenuItem-root": {
+      position: "relative",
+      lineHeight: "1.3rem",
+      borderBottom: "1px solid #ddd",
+      paddingBottom: "15px",
+      paddingTop: "18px",
+      display: "block",
+      width: "100%",
+      fontWeight: "600",
+      fontSize: "16px",
+    },
+    ".MuiMenuItem-root:hover": { background: "none", color: "rgb(27 127 204)" },
   },
 }));
 
