@@ -1,5 +1,5 @@
 {
-  "tenKhoaHoc": "KHÓA HỌC ĐÀN PIANO THIẾU NHI",
+  "tenKhoaHoc": "KHÓA HỌC ĐÀN ORGAN CƠ BẢN",
   "giangVien": "Mr.Nhi",
   "ngayKhoaHoc": " 2020-06-19 07:39:31",
   "noiDungKhoaHoc": [
@@ -8,30 +8,16 @@
       "text": "/images/course-details/course-detail-2.jpg",
       "size": "full"
     },
-    { "text": "Lý do bạn nên cho con mình tham gia lớp học Piano cho trẻ em:" },
     {
-      "text": "Đàn hát để giải trí lành mạnh hơn: Sau giờ học hết sức vất vả ở trường lớp, trẻ con cần có giờ vui chơi và giải trí. Vì thế nếu được giải trí bằng âm nhạc thì khi trẻ yêu thích, học chơi các nhạc cụ sẽ trở thành môn giải trí lành mạnh và hết sức bổ ích."
+      "htmlType": "many-span-text",
+      "listText": [
+        { "text": "Khóa học đàn Organ cơ bản của  " },
+        { "className": "bold", "text": "TRUNG TÂM ÂM NHẠC SUN MUSIC " },
+        {
+          "text": "giúp học viên làm quen với đàn Organ, các bài tập luyện ngón, các ca khúc thiếu nhi, các ca khúc mà học viên yêu thích và các tác phẩm độc tấu."
+        }
+      ]
     },
-    {
-      "text": "Phát huy năng khiếu của trẻ: Cho trẻ học nhạc ngay từ nhỏ dể dàng phát hiện năng khiếu và sở thích của trẻ, từ dó có thể chọn bộ môn phù hợp để nâng cao kỹ năng và phát huy năng khiếu của mình."
-    },
-
-    {
-      "text": "Trẻ biết chơi nhạc cụ thường tự tin hơn: Những trẻ biết chơi nhạc thường thích giao lưu và giúp trẻ tự tin thể hiện cá tính của mình."
-    },
-    {
-      "text": "Học nhạc giúp trẻ học môn toán và các môn khoa học tốt hơn: Trẻ từ 3 – 4 tuổi được học đàn mỗi tuần sẽ phát triển khả năng giải các bài toán đố tốt hơn những đứa trẻ khác đến 34%."
-    },
-    {
-      "text": "Giúp trẻ tăng cường khả năng tập trung: Việc đọc nốt nhạc, phối hợp các tay và điều tiết nhịp trong quá trình học giúp trẻ phát triển, rèn luyện tính tập trung của mình."
-    },
-    {
-      "text": "Phát huy trí tưởng tượng và khả năng sáng tạo ở trẻ: những buồn vui, thăng trầm trong từng nốt nhạc sẽ giúp trẻ hình dung những quang cảnh, kích thích trí tưởng tượng phong phú và sáng tạo."
-    },
-    {
-      "text": "Phát huy toàn diện về nhân cách và trí tuệ: những giai điệu ngọt ngào sẽ giúp trẻ có tâm hồn đẹp hơn, trí tuệ vàtư duy phát triển hơn, sẵn sàng trở thành những tài năng lớn."
-    },
-
     { "htmlType": "h2", "text": "THỜI GIAN:" },
     {
       "htmlType": "ul",
@@ -48,8 +34,10 @@
     {
       "htmlType": "ul",
       "listText": [
-        { "text": "1tr620/khoá/3 tháng. Tuần học 2 buổi" },
-        { "text": "600.000/1 tháng. Tuần học 2 buổi" }
+        { "text": "500.000/1 tháng. Tuần học 2 buổi." },
+        {
+          "text": "1.350.000/1khóa/3 tháng – Mỗi tuần 2 buổi – Mỗi buổi 60 phút /khóa"
+        }
       ]
     },
     {
@@ -70,6 +58,7 @@
         {
           "text": "Được đăng ký các giờ học linh động, được bảo lưu, học bù các buổi vắng."
         },
+
         {
           "htmlType": "many-span-text",
           "listText": [

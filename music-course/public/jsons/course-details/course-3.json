@@ -1,5 +1,5 @@
 {
-  "tenKhoaHoc": "KHÓA HỌC ĐÀN PIANO THIẾU NHI",
+  "tenKhoaHoc": "KHÓA HỌC ĐÀN PIANO NGƯỜI LỚN",
   "giangVien": "Mr.Nhi",
   "ngayKhoaHoc": " 2020-06-19 07:39:31",
   "noiDungKhoaHoc": [
@@ -8,31 +8,30 @@
       "text": "/images/course-details/course-detail-2.jpg",
       "size": "full"
     },
-    { "text": "Lý do bạn nên cho con mình tham gia lớp học Piano cho trẻ em:" },
     {
-      "text": "Đàn hát để giải trí lành mạnh hơn: Sau giờ học hết sức vất vả ở trường lớp, trẻ con cần có giờ vui chơi và giải trí. Vì thế nếu được giải trí bằng âm nhạc thì khi trẻ yêu thích, học chơi các nhạc cụ sẽ trở thành môn giải trí lành mạnh và hết sức bổ ích."
+      "htmlType": "many-span-text",
+      "listText": [
+        { "text": "Hãy lựa chọn " },
+        { "className": "bold", "text": "TRUNG TÂM ÂM NHẠC SUN MUSIC " },
+        {
+          "text": "để nuôi dưỡng và đồng hành trên con đường chinh phục âm nhạc. Hãy để chúng tôi cùng bạn đồng hành trên con đường phát triển toàn diện và thành công của bạn."
+        }
+      ]
     },
     {
-      "text": "Phát huy năng khiếu của trẻ: Cho trẻ học nhạc ngay từ nhỏ dể dàng phát hiện năng khiếu và sở thích của trẻ, từ dó có thể chọn bộ môn phù hợp để nâng cao kỹ năng và phát huy năng khiếu của mình."
-    },
-
-    {
-      "text": "Trẻ biết chơi nhạc cụ thường tự tin hơn: Những trẻ biết chơi nhạc thường thích giao lưu và giúp trẻ tự tin thể hiện cá tính của mình."
-    },
-    {
-      "text": "Học nhạc giúp trẻ học môn toán và các môn khoa học tốt hơn: Trẻ từ 3 – 4 tuổi được học đàn mỗi tuần sẽ phát triển khả năng giải các bài toán đố tốt hơn những đứa trẻ khác đến 34%."
-    },
-    {
-      "text": "Giúp trẻ tăng cường khả năng tập trung: Việc đọc nốt nhạc, phối hợp các tay và điều tiết nhịp trong quá trình học giúp trẻ phát triển, rèn luyện tính tập trung của mình."
-    },
-    {
-      "text": "Phát huy trí tưởng tượng và khả năng sáng tạo ở trẻ: những buồn vui, thăng trầm trong từng nốt nhạc sẽ giúp trẻ hình dung những quang cảnh, kích thích trí tưởng tượng phong phú và sáng tạo."
-    },
-    {
-      "text": "Phát huy toàn diện về nhân cách và trí tuệ: những giai điệu ngọt ngào sẽ giúp trẻ có tâm hồn đẹp hơn, trí tuệ vàtư duy phát triển hơn, sẵn sàng trở thành những tài năng lớn."
+      "htmlType": "many-span-text",
+      "listText": [
+        {
+          "text": "Đăng ký tham gia khóa Piano căn bản để khám phá cảm xúc âm nhạc tuyệt vời của bản thân tại "
+        },
+        { "className": "bold", "text": "TRUNG TÂM ÂM NHẠC SUN MUSIC." }
+      ]
     },
 
     { "htmlType": "h2", "text": "THỜI GIAN:" },
+    {
+      "text": "Sắp xếp theo lớp, nhóm, 1-1 sau khi tư vấn trao đổi."
+    },
     {
       "htmlType": "ul",
       "className": "clock",
@@ -54,6 +53,33 @@
     },
     {
       "htmlType": "h2",
+      "text": "NỘI DUNG KHÓA HỌC PIANO:"
+    },
+    {
+      "htmlType": "ul",
+      "listText": [
+        { "text": "Kỹ thuật xếp ngón trên đàn piano." },
+
+        {
+          "text": "Những bài tập vỡ lòng piano theo giáo trình của trung tâm."
+        },
+
+        {
+          "text": "Thực hành các tác phẩm Piano quen thuộc, Học viên có thể học theo yêu cầu các tác phẩm mình yêu thích."
+        }
+      ]
+    },
+    {
+      "text": "Khóa học piano"
+    },
+    {
+      "text": "Khóa học piano cho người lớn"
+    },
+    {
+      "text": "(HỌC VIÊN CÓ THỂ HỌC NHẠC CỤ CỦA TRUNG TÂM)"
+    },
+    {
+      "htmlType": "h2",
       "text": "QUYỀN LỢI CỦA HỌC VIÊN TRUNG TÂM ÂM NHẠC SUN MUSIC"
     },
     {
@@ -70,6 +96,7 @@
         {
           "text": "Được đăng ký các giờ học linh động, được bảo lưu, học bù các buổi vắng."
         },
+
         {
           "htmlType": "many-span-text",
           "listText": [

@@ -1,0 +1,92 @@
+{
+  "tenKhoaHoc": "KHÓA HỌC ĐÀN GUITAR CƠ BẢN",
+  "giangVien": "Mr.Nhi",
+  "ngayKhoaHoc": " 2020-06-19 07:39:31",
+  "noiDungKhoaHoc": [
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-2.jpg",
+      "size": "full"
+    },
+    {
+      "text": "Khóa học guitar cơ bản giúp cho học viên nâng cao kỹ thuật đệm hát đơn giản, tự tin khi biểu diễn trước đám đông"
+    },
+    { "htmlType": "h2", "text": "GIỚI THIỆU KHÓA HỌC:" },
+    {
+      "text": "Khóa học dành cho những bạn chưa biết gì về đàn guitar có thể tự tin đệm hát một vài bài đơn giản."
+    },
+    {
+      "text": "Khóa học trang bị cho Học viên những kỹ năng để có thể solo giai điệu, tự soạn intro, giăng tấu."
+    },
+
+    { "htmlType": "h2", "text": "THỜI GIAN:" },
+
+    {
+      "htmlType": "ul",
+      "className": "clock",
+      "listText": [
+        { "text": "Giờ học buổi sáng: 8h-11h" },
+        { "text": "Buổi chiều: 14h-21h" }
+      ]
+    },
+    {
+      "text": "Thời gian có thể linh động dễ dàng cho học viên (Tuần 1, 2, hoặc 3 buổi, mỗi buổi 60 phút)"
+    },
+    { "htmlType": "h2", "text": "HỌC PHÍ:" },
+    {
+      "htmlType": "ul",
+      "listText": [
+        { "text": "500.000/1 tháng. Tuần học 2 buổi." },
+        { "text": "1.350.000/1 khóa/3 tháng. Tuần học 2 buổi." }
+      ]
+    },
+
+    {
+      "htmlType": "h2",
+      "text": "QUYỀN LỢI CỦA HỌC VIÊN TRUNG TÂM ÂM NHẠC SUN MUSIC"
+    },
+    {
+      "htmlType": "ul",
+      "listText": [
+        { "text": "Giáo trình được biên soạn phù hợp với mọi lứa tuổi." },
+        {
+          "htmlType": "many-span-text",
+          "listText": [
+            { "text": "Được đăng ký tập luyện đàn miễn phí ngoài giờ tại " },
+            { "className": "bold", "text": "TRUNG TÂM ÂM NHẠC SUN MUSIC." }
+          ]
+        },
+        {
+          "text": "Được đăng ký các giờ học linh động, được bảo lưu, học bù các buổi vắng."
+        },
+
+        {
+          "htmlType": "many-span-text",
+          "listText": [
+            { "text": "Được ưu đãi khi mua các sản phẩm nhạc cụ tại Nhạc cụ " },
+            { "className": "bold", "text": "TRUNG TÂM ÂM NHẠC SUN MUSIC." }
+          ]
+        },
+        { "text": "Học phí có thể thay đổi linh hoạt tùy vào từng học viên." }
+      ]
+    },
+    {
+      "className": "bold italic",
+      "text": "Mặt trời âm nhạc!",
+      "position": "center"
+    },
+    {
+      "htmlType": "tags",
+      "listText": [
+        {
+          "text": "Piano đệm hát cho người mới bắt đầu tại đà nẵng, ",
+          "url": "link/xxx"
+        },
+        {
+          "text": "Piano đệm hát cho người mới bắt đầu tại đà nẵng ",
+          "url": "link/xxx"
+        }
+      ]
+    }
+  ]
+}

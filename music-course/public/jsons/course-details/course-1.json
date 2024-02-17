@@ -1,5 +1,5 @@
 {
-  "tenKhoaHoc": "KHÓA HỌC ĐÀN PIANO ĐỆM HÁT",
+  "tenKhoaHoc": "KHÓA HỌC ĐÀN PIANO CƠ BẢN",
   "giangVien": "Mr.Nhi",
   "urlGiangVien": "/",
   "comment": "0",
@@ -11,213 +11,103 @@
       "text": "/images/course-details/course-detail-1.jpg",
       "size": "full"
     },
-    { "text": "TUYỂN HỌC VIÊN KHÓA HỌC PIANO ĐÊM HÁT" },
-    { "text": "Đam mê chưa bao giờ là muộn" },
-    { "text": "–>> Hãy để Sun Music cùng bạn kết nối niềm đam mê nhé!" },
+    {
+      "text": "Piano là một môn nghệ thuật đang được rất nhiều người yêu thích. Việc chơi Piano là 1 hình thức đang được nhiều người lựa chọn để giải trí và thư giãn sau những giờ học tập hay làm việc căng thẳng, mệt mỏi."
+    },
     {
       "htmlType": "many-span-text",
       "listText": [
-        { "text": "#SunMusic " },
+        { "className": "bold", "text": "Đến với SUN MUSIC " },
+        {
+          "text": "bạn sẽ được thỏa niềm đam mê âm nhạc của mình. Tự hào là trung tâm có độ dày kinh nghiệm về đào tạo Piano, có nhiều năm kinh nghiệm trong giảng dạy với phương pháp, giáo trình biên soạn dễ hiểu cho mọi lứa tuổi sẽ là môi trường hoàn hảo đồng hành cùng các học viên trên hành trình chinh phục âm nhạc."
+        }
+      ]
+    },
+    { "htmlType": "h1", "text": "PIANO CƠ BẢN HIỆN CÓ 3 LỚP" },
+    {
+      "htmlType": "many-span-text",
+      "listText": [
+        { "className": "bold", "text": "Khóa Học Piano Lớp Tập Thể: " },
+        {
+          "text": "Là hình thức lớp 1 thầy/cô với số lượng học sinh từ 4 đến 5 học viên."
+        }
+      ]
+    },
+    {
+      "htmlType": "many-span-text",
+      "listText": [
         {
           "className": "bold",
-          "text": " 𝐤𝐡𝐚𝐢 𝐠𝐢𝐚̉𝐧𝐠 𝗸𝗵𝗼́𝗮 𝗽𝗶𝗮𝗻𝗼 đ𝗲̣̂𝗺 𝗵𝗮́𝘁 – 𝗽𝗶𝗮𝗻𝗼 𝗰𝗼𝘃𝗲𝗿 đ𝘂̛𝗼̛̣𝗰 𝘁𝗵𝗶𝗲̂́𝘁 𝗸𝗲̂́ 𝗹𝗶𝗻𝗵 𝗵𝗼𝗮̣𝘁 – 𝗻𝗴𝗮̆́𝗻 𝗴𝗼̣𝗻 𝘃𝗮̀ 𝘀𝘂́𝗰 𝘁𝗶́𝗰𝗵 𝗻𝗵𝗮̂́𝘁."
+          "text": "Khóa Học Piano Cá Nhân Tại Trung Tâm: "
+        },
+        {
+          "text": "Là hình thức lớp 1 thầy/cô 1 trò, với hình thức này giáo viên sẽ dành trọn thời gian của buổi học để hướng dẫn học viên luyện tập các bài học theo chương trình sách học Piano. Do đó học viên sẽ có nhiều thời gian được học với thầy/cô hơn."
         }
       ]
     },
     {
-      "text": "Với lộ trình ngắn gọn – dễ hiểu – áp dụng vào những bài hot nhất."
-    },
-    { "text": "Thực hành ngay buổi học đầu tiên với phương pháp đặc biệt." },
-    {
-      "text": "Đội ngũ giáo viên có kinh nghiệm – giảng dạy trong các trường Âm Nhạc và trung tâm Âm nhạc."
-    },
-    {
-      "text": "Mỗi buổi học là một niềm vui – một điều mới mẻ khi chúng mình cùng nhau khám phá các style đệm hát."
-    },
-    {
-      "text": "Học trong môi trường vui vẻ – hòa đồng – năng động và được thực hành giao lưu học viên với nhau để thêm sự tự tin."
-    },
-    {
-      "text": "Kết thúc khóa học các bạn được thực hành biểu diễn hoặc quay MV cực sịn sò sản phẩm Âm Nhạc mà bạn yêu thích."
-    },
-    { "text": "_________________________" },
-    { "text": "Quá đơn giản phải không nào" },
-    {
-      "className": "bold",
-      "text": "𝗛𝗮̃𝘆 𝗻𝗵𝗮𝗻𝗵 𝘁𝗮𝘆 𝗶𝗯 đ𝗮̆𝗻𝗴 𝗸𝗶́ 𝗸𝗵𝗼́𝗮 𝗵𝗼̣𝗰 đ𝗲̂̉ 𝗻𝗵𝗮̣̂𝗻 𝗻𝗴𝗮𝘆 𝘂̛𝘂 đ𝗮̃𝗶 𝗴𝗶𝗮̉𝗺 𝗻𝗴𝗮𝘆 1𝟬% 𝗰𝗵𝗼 𝟭𝟬 𝗯𝗮̣𝗻 đ𝗮̆𝗻𝗴 𝗸𝗶́ đ𝗮̂̀𝘂 𝘁𝗶𝗲̂𝗻 𝗻𝗵𝗲́."
-    },
-    {
-      "htmlType": "img",
-      "text": "/images/course-details/course-detail-1.jpg",
-      "size": "normal"
-    },
-    {
-      "htmlType": "img",
-      "text": "/images/course-details/course-detail-1.jpg",
-      "size": "normal"
-    },
-    {
-      "htmlType": "img",
-      "text": "/images/course-details/course-detail-1.jpg",
-      "size": "normal"
-    },
-    {
-      "className": "bold italic",
-      "text": "Hình ảnh học viên tại trung tâm",
-      "position": "center"
-    },
-    { "htmlType": "h1", "text": "NỘI DUNG KHÓA HỌC PIANO:" },
-    {
-      "htmlType": "ul",
+      "htmlType": "many-span-text",
       "listText": [
-        { "text": "Kỹ thuật xếp ngón trên đàn piano." },
+        { "className": "bold", "text": "Khóa Học Piano Gia sư tại nhà:" },
         {
-          "text": "Những bài tập vỡ lòng piano theo giáo trình quốc tế"
+          "text": "Là hình thức giáo viên đến tận nhà để dạy học."
         }
       ]
     },
-    {
-      "text": "Thực hành các tác phẩm Piano quen thuộc, Học viên có thể học theo yêu cầu các tác phẩm mình yêu thích."
-    },
-    { "htmlType": "img", "text": "/images/course-details/course-detail-1.jpg" },
-    { "htmlType": "h1", "text": "QUYỀN LỢI CỦA HỌC VIÊN" },
-    {
-      "htmlType": "ul",
-      "listText": [
-        {
-          "text": " Phương pháp dạy học hiện đại, đảm bảo học viên có thể tiếp thu nhanh và thực hành tốt nhất. Các học viên sẽ được giảng dạy từ những bước cơ bản đến nâng cao. Từ những kiến thức nhạc lý đến kỹ năng chơi đàn."
-        },
-        {
-          "text": "Hệ thống bài giảng giúp học viên dễ tiếp thu, được thực hành nhanh chóng trên nhạc cụ, bồi dưỡng, nâng cao khả năng cảm thụ âm nhạc cho học viên, giúp học viên rèn luyện tính kiên trì trong việc học đàn."
-        },
-        {
-          "text": "Giúp trẻ nhỏ phát triển tư duy sáng tạo qua nội dung các bài học, các tác phẩm âm nhạc."
-        },
-        {
-          "text": "Học sinh thường xuyên được thực hành biểu diễn giao lưu với nhau để rèn luyện sự tự tin trước đám đông."
-        },
-        {
-          "text": "Mức học phí hợp lí, học viên sẽ dc ưu đãi khi mua nhạc cụ."
-        },
-        {
-          "text": "Giúp trẻ nhỏ phát triển tư duy sáng tạo qua nội dung các bài học, các tác phẩm âm nhạc."
-        },
-        {
-          "text": "Đến với dạy Piano Đà Nẵng bất kể bạn ở trình độ nào, ở đâu, ở lứa tuổi nào cũng đều có thể học đàn."
-        },
-        {
-          "text": "Chúng tôi luôn đảm bảo những điều tốt nhất cho học viên từ uy tín, từ học phí đến chất lượng."
-        },
-        {
-          "text": "Thời gian học được sắp xếp phù hợp nhất cho học viên, có thể linh động cho người đi làm."
-        },
-        { "text": "Tư vấn nhiệt tình 24/7" }
-      ]
-    },
-    { "className": "bold", "text": "VIDEO HỌC VIÊN SAU KHÓA 3 THÁNG:" },
-    { "text": "https://www.youtube.com/watch?v=4MZlUZdeJ0o" },
-    { "text": "https://www.youtube.com/watch?v=TByKJ2JfcKI" },
-    { "text": "https://www.youtube.com/watch?v=H8Ublrq53SA" },
-    { "text": "https://www.youtube.com/watch?v=_5JQcOvoE-c" },
-    { "text": "https://www.youtube.com/watch?v=X55XIPKZboQ" },
-    { "text": "https://www.youtube.com/watch?v=W6u9-iVHyLg" },
-    { "text": "https://www.youtube.com/watch?v=pU5lrjBKZ40" },
+
     { "htmlType": "h2", "text": "THỜI GIAN:" },
     {
       "htmlType": "ul",
+      "className": "clock",
       "listText": [
-        { "text": "Các lớp học tại trung tâm:" },
-        {
-          "htmlType": "ul",
-          "className": "clock",
-          "listText": [
-            {
-              "text": "Lớp buổi sáng: 9h – 10h, 10h – 11h"
-            },
-            {
-              "text": "Lớp buổi chiều: 16h – 17h, 17h – 18h"
-            },
-            {
-              "text": "Lớp buổi chiều: 18h – 19h, 19h – 20h"
-            }
-          ]
-        },
-        {
-          "text": "Thời gian có thể linh động dễ dàng cho học viên"
-        }
+        { "text": "Giờ học buổi sáng: 8h-11h" },
+        { "text": "Buổi chiều: 14h-21h" }
       ]
+    },
+    {
+      "text": "Thời gian có thể linh động dễ dàng cho học viên"
     },
     { "htmlType": "h2", "text": "HỌC PHÍ:" },
     {
       "htmlType": "ul",
       "listText": [
-        {
-          "htmlType": "many-span-text",
-          "listText": [
-            { "className": "bold", "text": "Học phí 800.000đ/1 tháng " },
-            { "text": " (tuần học 2 buổi, mỗi buổi" },
-            { "className": "bold", "text": " 60 phút.)" }
-          ]
-        },
+        { "text": "1tr620/khoá/3 tháng. Tuần học 2 buổi" },
+        { "text": "600.000/1 tháng. Tuần học 2 buổi" }
+      ]
+    },
+    {
+      "htmlType": "h2",
+      "text": "QUYỀN LỢI CỦA HỌC VIÊN TRUNG TÂM ÂM NHẠC SUN MUSIC"
+    },
+    {
+      "htmlType": "ul",
+      "listText": [
+        { "text": "Giáo trình được biên soạn phù hợp với mọi lứa tuổi." },
         {
           "htmlType": "many-span-text",
           "listText": [
             {
               "className": "bold",
-              "text": "Khóa 3 tháng giảm 10% còn 2.160.000đ/3 tháng  ("
+              "text": "Được đăng ký tập luyện đàn miễn phí ngoài giờ tại "
             },
-            { "text": "tuần học 2 buổi, mỗi buổi" },
-            { "className": "bold", "text": " 60 phút.)" }
+
+            { "className": "bold", "text": "TRUNG TÂM ÂM NHẠC SUN MUSIC." }
           ]
-        }
-      ]
-    },
-    { "className": "bold underline", "text": "Thông tin liên hệ:" },
-    {
-      "htmlType": "ul",
-      "listText": [
+        },
         {
-          "htmlType": "many-span-text",
-          "listText": [
-            { "className": "bold", "text": "Địa chỉ: " },
-            { "text": "104/31 Lê Đình Lý, Q Thanh Khê, TP Đà Nẵng" }
-          ]
+          "text": "Được đăng ký các giờ học linh động, được bảo lưu, học bù các buổi vắng."
         },
         {
           "htmlType": "many-span-text",
           "listText": [
-            { "className": "bold", "text": "Hotline: " },
-            { "text": "0776.43.7777" }
+            { "text": "Được ưu đãi khi mua các sản phẩm nhạc cụ tại Nhạc cụ " },
+            {
+              "className": "bold",
+              "text": "TRUNG TÂM ÂM NHẠC SUN MUSIC."
+            }
           ]
         },
-        {
-          "htmlType": "many-span-text",
-          "listText": [
-            { "className": "bold", "text": "Fanpage:" },
-            { "text": "https://www.facebook.com/fm.musicdn/" }
-          ]
-        },
-        {
-          "htmlType": "many-span-text",
-          "listText": [
-            { "className": "bold", "text": "Website: " },
-            { "text": "https://daypianodanang.com/" }
-          ]
-        },
-        {
-          "htmlType": "many-span-text",
-          "listText": [
-            { "className": "bold", "text": "Email: " },
-            { "text": "fm.musicdn@gmail.com" }
-          ]
-        },
-        {
-          "htmlType": "many-span-text",
-          "listText": [
-            { "className": "bold", "text": "Giờ mở cửa:" },
-            { "text": "09:00 – 21:00" }
-          ]
-        }
+        { "text": "Học phí có thể thay đổi linh hoạt tùy vào từng học viên." }
       ]
     },
     {

@@ -68,6 +68,7 @@ const MenuBottom = ({ dataMenu, anchorEl, handleClose }: MenuBottomProps) => {
     (to1: string, to2?: string) => {
       handleClose();
       navigate(to1 + "/" + to2);
+      window.scrollTo(0, 0);
     },
     [handleClose, navigate]
   );
