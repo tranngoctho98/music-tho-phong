@@ -18,9 +18,17 @@
     {
       "text": "Khóa học trang bị cho Học viên những kỹ năng để có thể solo giai điệu, tự soạn intro, giăng tấu."
     },
-
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-4-2.jpg",
+      "size": "normal"
+    },
+    {
+      "className": "bold italic",
+      "text": "Hình ảnh học viên tại trung tâm",
+      "position": "center"
+    },
     { "htmlType": "h2", "text": "THỜI GIAN:" },
-
     {
       "htmlType": "ul",
       "className": "clock",
