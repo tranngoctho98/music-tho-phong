@@ -48,11 +48,15 @@ const CourseCardStyled = styled(Grid)`
   &&.card-tu-van {
     margin-bottom: 20px;
     min-height: 135px;
+    max-height: 200px;
     // max-height: 150px;
     background: #fff;
     .image-card {
       padding: 5px;
       border: 1px solid #eaeaea;
+      img {
+        height: 180px;
+      }
     }
     .content-tu-van {
       padding-inline: 20px;

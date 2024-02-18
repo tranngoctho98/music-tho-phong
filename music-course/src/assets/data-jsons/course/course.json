@@ -1,37 +1,37 @@
 [
   {
     "id": "1",
-    "image": "/images/course/course-1.jpg",
+    "image": "/images/course-details/course-detail-1-1.jpg",
     "title": "Khóa học đàn Piano cơ bản",
-    "content": "Bạn sẽ học được gì? Sau khóa học ukulele cơ bản, bạn sẽ: Biết cách đọc và bấm tốt các hợp âm trên đàn Ukulele. Tự chơi được các bản nhạc yêu thích với các tiết điệu rất thông dụng như: Valse, Ballad, Fox, Disco… Giới thiệu khóa học   “Người giỏi ngoại ngữ sẽ thông minh"
+    "content": "Là hình thức lớp 1 thầy/cô 1 trò, với hình thức này giáo viên sẽ dành trọn thời gian của buổi học để hướng dẫn học viên luyện tập các bài học theo chương trình sách học Piano. Do đó học viên sẽ có nhiều thời gian được học với thầy/cô hơn."
   },
   {
     "id": "2",
-    "image": "/images/course/course-1.jpg",
+    "image": "/images/course-details/course-detail-2-1.jpg",
     "title": "Khóa học đàn Piano thiếu nhi",
     "content": "Hiện nay tại Sun Music liên tục nhận đào tạo các cô giáo mầm non mong muốn theo học đàn Organ để phục vụ cho công tác giảng dạy cũng như là để giải trí, với giáo trình học từ cơ bản đến nâng cao và đi vào chuyên sâu cùng với sự giảng dạy"
   },
   {
     "id": "3",
-    "image": "/images/course/course-1.jpg",
+    "image": "/images/course-details/course-detail-3-1.jpg",
     "title": "Khoá học đàn Piano người lớn",
     "content": "Khóa học đàn dành cho nhạc công đi show – chương trình ngắn hạn đảm bảo đầu ra sau khi hoàn thành khóa học tại đây. Sun Music là một địa chỉ giảng dạy âm nhạc theo phương pháp LUYỆN CẢM ÂM – một phương pháp học nhạc hiệu quả, giúp người học mau chóng phát triển"
   },
   {
     "id": "4",
-    "image": "/images/course/course-1.jpg",
+    "image": "/images/course-details/course-detail-4-1.jpg",
     "title": "Khóa học đàn Guitar cơ bản",
-    "content": "Khóa học đàn Organ cho trẻ em của Sun Music giúp trẻ làm quen với đàn Organ, các bài tập luyện ngón, các ca khúc thiếu nhi và các tác phẩm độc tấu. Về cơ bản là Organ dễ học hơn so với Piano, tuy nhiên để đạt được mục tiêu là hoàn thành một"
+    "content": "Ai cũng có thể học đàn Guitar từ các em nhỏ, học sinh, sinh viên cho đến người trưởng thành. Hiện nay  trên thị trường có quá nhiều lớp, các trung tâm đào tạo Guitar, thật khiến bạn “ bối rối “. Chúng tôi – Sun Music không tự nhận mình là TỐT NHẤT nhưng"
   },
   {
     "id": "5",
-    "image": "/images/course/course-1.jpg",
+    "image": "/images/course-details/course-detail-5-1.jpg",
     "title": "Khóa học đàn Organ cơ bản",
-    "content": "Thực tế cho thấy những người có khả năng chơi một loại nhạc cụ nào đó thì luôn biết cách làm mình nổi bật giữa đám đông và vô cùng tự tin. Trong một cuộc khảo sát tâm lý mới đây, với câu hỏi: Người đàn ông lý tưởng của bạn là gì? Có đến"
+    "content": "Khóa học đàn Organ cho trẻ em của Sun Music giúp trẻ làm quen với đàn Organ, các bài tập luyện ngón, các ca khúc thiếu nhi và các tác phẩm độc tấu. Về cơ bản là Organ dễ học hơn so với Piano, tuy nhiên để đạt được mục tiêu là hoàn thành một"
   },
   {
     "id": "6",
-    "image": "/images/course/course-1.jpg",
+    "image": "/images/course-details/course-detail-6-2.jpg",
     "title": "Khóa học Thanh nhạc cơ bản/nâng cao",
     "content": "Ai cũng có thể học đàn Guitar từ các em nhỏ, học sinh, sinh viên cho đến người trưởng thành. Hiện nay  trên thị trường có quá nhiều lớp, các trung tâm đào tạo Guitar, thật khiến bạn “ bối rối “. Chúng tôi – Sun Music không tự nhận mình là TỐT NHẤT nhưng"
   }
