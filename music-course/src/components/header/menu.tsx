@@ -52,6 +52,7 @@ const MenuComponent = (p: MenuCompnentProps) => {
       } else {
         navigate(to1);
       }
+      window.scrollTo(0, 0);
     },
     [navigate]
   );
