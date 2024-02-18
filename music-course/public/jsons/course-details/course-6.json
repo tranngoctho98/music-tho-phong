@@ -5,7 +5,7 @@
   "noiDungKhoaHoc": [
     {
       "htmlType": "img",
-      "text": "/images/course-details/course-detail-2.jpg",
+      "text": "/images/course-details/course-detail-6-1.jpg",
       "size": "full"
     },
     {
@@ -29,7 +29,26 @@
     {
       "text": "Phòng học cách âm máy lạnh, giờ học linh động phù hợp với học viên. Lớp học 1 giáo viên kèm 1 học viên để đạt được hiệu quả học tập cao nhất. Hoặc nhóm lớp từ 2-3 học viên."
     },
-
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-6-2.jpg",
+      "size": "normal"
+    },
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-6-3.jpg",
+      "size": "normal"
+    },
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-6-4.jpg",
+      "size": "normal"
+    },
+    {
+      "className": "bold italic",
+      "text": "Hình ảnh học viên tại trung tâm",
+      "position": "center"
+    },
     { "htmlType": "h2", "text": "THỜI GIAN:" },
 
     {
@@ -82,11 +101,11 @@
       "listText": [
         {
           "text": "Piano đệm hát cho người mới bắt đầu tại đà nẵng, ",
-          "url": "link/xxx"
+          "url": "1"
         },
         {
           "text": "Piano đệm hát cho người mới bắt đầu tại đà nẵng ",
-          "url": "link/xxx"
+          "url": "2"
         }
       ]
     }

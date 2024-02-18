@@ -8,7 +8,9 @@ const PageWebsite = () => {
   return (
     <>
       <AppBarWeb />
-      <Outlet />
+      <Box minHeight={700}>
+        <Outlet />
+      </Box>
       <FooterComponent />
       <Box display={{ xs: "block", md: "none" }}>
         <BottomNavigationComponent />

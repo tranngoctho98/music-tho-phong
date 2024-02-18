@@ -13,7 +13,15 @@ const ContentList = (props: ContentListProps) => {
     <ContentListStyled id="content-list" container direction="column" p={1}>
       {props.listContent.map((value, index) => {
         return (
-          <Grid key={index} item sx={{ textAlign: value.position || "left" }}>
+          <Grid
+            key={index}
+            item
+            container={value.htmlType === "img" ? true : false}
+            sx={{
+              justifyContent: value.position || "left",
+              textAlign: value.position || "left",
+            }}
+          >
             <ContentRenders key={index} {...value} />
           </Grid>
         );

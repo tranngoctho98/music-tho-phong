@@ -35,7 +35,7 @@ const ViewScreen = (props: ViewScreenProps) => {
           listBreadcrumb={props.listBreadcrumb}
         />
       )}
-      <Box marginInline={{ xs: 1, md: 1, lg: 15, xl: 20 }} minHeight={500}>
+      <Box marginInline={{ xs: 1, md: 1, lg: 19, xl: 20 }} minHeight={500}>
         {props.children}
       </Box>
     </Box>

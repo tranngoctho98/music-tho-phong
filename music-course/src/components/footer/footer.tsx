@@ -80,14 +80,6 @@ const FooterComponent = () => {
           />
         </Grid>
       </Grid>
-      <Grid
-        container
-        direction="row"
-        className="develop"
-        justifyContent="center"
-      >
-        <p>{"@" + new Date().getFullYear() + " - " + contact.endFooter}</p> {}
-      </Grid>
     </FooterStyled>
   );
 };

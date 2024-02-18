@@ -1,14 +1,25 @@
 import { CardMedia, Grid } from "@mui/material";
 import styled from "styled-components";
 import Button from "../../components/buttons/button";
+import { useNavigate } from "react-router-dom";
+import { useCallback } from "react";
 
 export interface CourseCardProps {
+  id: string;
   image: string;
   title: string;
   content: string;
 }
 
 const CourseCard = (props: CourseCardProps) => {
+  const navigate = useNavigate();
+  const handleOnClickTo = useCallback(
+    (to: string) => {
+      navigate(to);
+    },
+    [navigate]
+  );
+
   return (
     <CourseCardStyled item container direction="row" className="card-tu-van">
       <Grid item xs={3} className="image-card">
@@ -26,7 +37,7 @@ const CourseCard = (props: CourseCardProps) => {
           {props.content}
         </Grid>
         <Grid item paddingTop={3}>
-          <Button>Read more</Button>
+          <Button onClick={() => handleOnClickTo(props.id)}>Đọc thêm</Button>
         </Grid>
       </Grid>
     </CourseCardStyled>

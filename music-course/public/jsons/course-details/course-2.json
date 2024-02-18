@@ -5,7 +5,7 @@
   "noiDungKhoaHoc": [
     {
       "htmlType": "img",
-      "text": "/images/course-details/course-detail-2.jpg",
+      "text": "/images/course-details/course-detail-2-1.jpg",
       "size": "full"
     },
     { "text": "Lý do bạn nên cho con mình tham gia lớp học Piano cho trẻ em:" },
@@ -31,7 +31,26 @@
     {
       "text": "Phát huy toàn diện về nhân cách và trí tuệ: những giai điệu ngọt ngào sẽ giúp trẻ có tâm hồn đẹp hơn, trí tuệ vàtư duy phát triển hơn, sẵn sàng trở thành những tài năng lớn."
     },
-
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-2-2.jpg",
+      "size": "normal"
+    },
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-2-3.jpg",
+      "size": "normal"
+    },
+    {
+      "htmlType": "img",
+      "text": "/images/course-details/course-detail-2-4.jpg",
+      "size": "normal"
+    },
+    {
+      "className": "bold italic",
+      "text": "Hình ảnh học viên tại trung tâm",
+      "position": "center"
+    },
     { "htmlType": "h2", "text": "THỜI GIAN:" },
     {
       "htmlType": "ul",
@@ -90,11 +109,11 @@
       "listText": [
         {
           "text": "Piano đệm hát cho người mới bắt đầu tại đà nẵng, ",
-          "url": "link/xxx"
+          "url": "1"
         },
         {
           "text": "Piano đệm hát cho người mới bắt đầu tại đà nẵng ",
-          "url": "link/xxx"
+          "url": "2"
         }
       ]
     }

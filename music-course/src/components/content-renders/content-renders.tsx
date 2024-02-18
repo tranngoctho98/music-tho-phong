@@ -90,7 +90,7 @@ const ContentRenders = (props: LineTextModel) => {
           </span>
         );
       default:
-        return <span className={props.className}>{props.text}</span>;
+        return <span className={props.className}>{props.text + " "}</span>;
     }
   }, [props.className, props.htmlType, props.listText, props.size, props.text]);
 
