@@ -1,14 +1,19 @@
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box, Grid, Link } from "@mui/material";
+import { memo, useCallback } from "react";
 import styled from "styled-components";
 import contact from "../../assets/data-jsons/contact.json";
 import logoMusic from "../../assets/images/logo-not-background.png";
+import mapImage from "../../assets/images/map.png";
 import theme from "../../theme/theme";
-import MyComponent from "../maps/map";
-import { memo } from "react";
+import { linkAddress } from "../../constants/defaults";
 
 const FooterComponent = () => {
+  const handleOnClickMap = useCallback(() => {
+    window.open(linkAddress, "_blank");
+  }, []);
+
   return (
     <FooterStyled
       id="footer"
@@ -65,8 +70,14 @@ const FooterComponent = () => {
           </Grid>
         </Grid>
 
-        <Grid item xs={12} md={5} p={2}>
-          <MyComponent />
+        <Grid className="map" item xs={12} md={4.5} p={2}>
+          <img
+            className="image-map"
+            src={mapImage}
+            alt="map"
+            loading="lazy"
+            onClick={handleOnClickMap}
+          />
         </Grid>
       </Grid>
       <Grid
@@ -102,6 +113,15 @@ const FooterStyled = styled(Box)`
     a {
       outline: none !important;
       text-decoration: none;
+    }
+    .map img {
+      width: 100%;
+      border: 5px #fff solid;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+    .map img:hover {
+      opacity: 0.5;
     }
   }
 `;

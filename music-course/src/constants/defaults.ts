@@ -8,3 +8,5 @@ export const listCourseOptions: SelectOption[] = [
   { value: "5", label: "Đàn Organ thiếu nhi" },
   { value: "6", label: "Thanh nhạc cơ bản/nâng cao" },
 ];
+
+export const linkAddress = "https://maps.app.goo.gl/cJUVkJpNoSPgTNAd7";
