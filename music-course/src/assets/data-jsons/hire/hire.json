@@ -6,7 +6,13 @@
     "position": "center"
   },
   {
-    "text": "Sun Music là công ty chuyên cung cấp cho thuê các ca sĩ biểu diễn chuyên nghiệp, các nhóm nhạc hiện đại để phục vụ cho các buổi lễ, các buổi sự kiện và các chương trình văn hóa nghệ thuật diễn ra tại Đà Nẵng, với nhiều năm kinh nghiệm sẽ luôn mang sự hài lòng đến với bạn."
+    "htmlType": "many-span-text",
+    "listText": [
+      { "className": "bold", "text": "Sun Music " },
+      {
+        "text": "là công ty chuyên cung cấp cho thuê các ca sĩ biểu diễn chuyên nghiệp, các nhóm nhạc hiện đại để phục vụ cho các buổi lễ, các buổi sự kiện và các chương trình văn hóa nghệ thuật diễn ra tại Đà Nẵng, với nhiều năm kinh nghiệm sẽ luôn mang sự hài lòng đến với bạn."
+      }
+    ]
   },
   {
     "text": "Công ty bạn đang chuẩn bị tổ chức lễ khai trương? Cần có một ca sĩ để biểu diễn cho bầu không khí thêm sôi động? Hay bạn muốn tìm một ca sĩ, band nhạc để hát một chương trình trình đặc biệt như: Event, Thành lập công ty, Year and Party, Đám cưới, sinh nhật, lễ hội,…"
@@ -14,17 +20,89 @@
   {
     "text": "Chúng tôi với vai trò là một bầu show trực tiếp với ca sĩ ( không qua trung gian khác) luôn cung cấp cho khách hàng dịch vụ với giá cả tối ưu và cạnh tranh nhất thị trường, chất lượng dịch vụ hoàn toàn không thay đổi ( ca sĩ đến đúng giờ, trang phục theo yêu cầu, hát đúng bài hát đã chọn)."
   },
-  {
-    "htmlType": "img",
-    "text": "/images/hire/hire-1.jpg",
-    "size": "normal"
-  },
-
   { "className": "bold", "text": "CA SĨ ĐƯỢC TUYỂN CHỌN VÀ ĐÀO TẠO KỸ LƯỠNG" },
   {
-    "text": "Khi bạn đã liên hệ dịch vụ cung cấp ca sĩ chuyên nghiệp tại Sun Music, bạn có thể hoàn toàn an tâm về khả năng diễn xuất của các ca sĩ chúng tôi cung cấp. Bản thân vừa là một trung gian liên hệ ca sĩ, vừa là một trung tâm đào tạo âm nhạc, đào tạo ca sĩ uy tín tại Đà Nẵng, các ca sĩ mà Sun Music cung cấp sẽ phải trải qua quá trình chọn lọc hoặc được chính công ty đào tạo kỹ lưỡng, về mặt thanh nhạc, giọng hát, lẫn cả diễn xuất trên sân khấu."
+    "htmlType": "many-span-text",
+    "listText": [
+      { "text": "Khi bạn đã liên hệ dịch vụ cung cấp ca sĩ chuyên nghiệp tại" },
+      { "className": "bold", "text": "Sun Music" },
+      {
+        "text": ", bạn có thể hoàn toàn an tâm về khả năng diễn xuất của các ca sĩ chúng tôi cung cấp. Bản thân vừa là một trung gian liên hệ ca sĩ, vừa là một trung tâm đào tạo âm nhạc, đào tạo ca sĩ uy tín tại Đà Nẵng, các ca sĩ mà"
+      },
+      { "className": "bold italic", "text": " Sun Music " },
+      {
+        "text": "cung cấp sẽ phải trải qua quá trình chọn lọc hoặc được chính công ty đào tạo kỹ lưỡng, về mặt thanh nhạc, giọng hát, lẫn cả diễn xuất trên sân khấu."
+      }
+    ]
   },
   {
     "text": "Đặc biệt, hầu hết các ca sĩ tại Sun Music đều có kinh nghiệm biểu diễn thường xuyên tổ chức các chương trình sự kiện để các ca sĩ có cơ hội cọ sát thực tế. Cho dù là thuộc bất kỳ dòng nhạc nào, ca sĩ tại Sun Music luôn thể hiện đúng cảm xúc của ca khúc được trình bày."
-  }
+  },
+  {
+    "htmlType": "img",
+    "text": "/images/hire/hire-1.jpg"
+  },
+  {
+    "htmlType": "img",
+    "text": "/images/hire/hire-2.jpg"
+  },
+  {
+    "text": "   Đặc biệt, với vai trò là một bầu show (trung gian) uy tín tại Đà Nẵng, chúng tôi có thể liên hệ với những ca sĩ thuộc nhiều hạng mục khác nhau "
+  },
+  {
+    "htmlType": "many-span-text",
+    "listText": [
+      { "text": "   Ngoài ra, " },
+      { "className": "bold italic", "text": "Sun Music " },
+      {
+        "text": "Ngoài ra, cũng cung cấp các ca sĩ nghiệp dư, tuy chưa có tên tuổi nhưng cũng trải qua quá trình đào tạo hoàn chỉnh, thích hợp cho các sân khấu và chương trình sự kiện nhỏ lẻ."
+      }
+    ]
+  },
+  {
+    "htmlType": "many-span-text",
+    "listText": [
+      {
+        "text": "   Đối với những sự kiện yêu cầu ca sĩ nghiệp dư, bán chuyên… tại các sự kiện vừa và nhỏ thì bạn càng nên lựa chọn chúng tôi để có được "
+      },
+      {
+        "className": "italic",
+        "text": "mức giá không thể thấp hơn  "
+      },
+      { "text": "nhưng " },
+      {
+        "className": "italic",
+        "text": "chất lượng dịch vụ hoàn toàn đảm bảo. "
+      },
+      {
+        "text": "Với ngành mũi nhọn là đào tạo nghệ thuật, các ca sĩ đều được chúng tôi trau dồi "
+      },
+      { "className": "italic", "text": "kiến thức và thực hành mỗi ngày " },
+      {
+        "text": "với những giảng viên nhiều năm kinh nghiệm, giảng dạy tại các trường và trung tâm nghệ thuật lớn, ca sĩ của chúng tôi đến với bạn đều đã đi biểu diễn nhiều năm và thường xuyên hát tại các sự kiện."
+      }
+    ]
+  },
+  {
+    "text": "Ngoài ra, chúng tôi còn cung cấp nhạc công, band nhạc, MC,…. cho các sự kiện khai trương, động thổ, hội nghị… với mức giá đa dạng phù hợp với mục đích của từng sự kiện."
+  },
+  {
+    "htmlType": "img",
+    "text": "/images/hire/hire-3.jpg",
+    "size": "full"
+  },
+  {
+    "htmlType": "img",
+    "text": "/images/hire/hire-4.jpg",
+    "size": "full"
+  },
+  { "text": "" },
+  {
+    "className": "bold italic",
+    "text": "Mọi chi tiết vui lòng liên hệ với chúng tôi qua:"
+  },
+  { "className": "bold", "text": "SUN MUSIC" },
+  { "text": "Địa chỉ:  K77/5 Lê Độ, Q. Thanh Khê, TP. Đà Nẵng " },
+  { "text": "Điện thoại: 0962.789.108 (Mr. Thọ)  –   0364.344.203 (Mss.Nhi)" },
+  { "text": "Email: sunmusic1008@gmail.com" }
 ]

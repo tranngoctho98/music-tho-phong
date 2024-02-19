@@ -6,7 +6,7 @@ const NewsPage = () => {
   return (
     <ViewScreen
       title="Thuê ca sĩ và ban nhạc"
-      coverImage="/images/news/news-anh-bia.jpg"
+      coverImage="/images/hire/hire-1.jpg"
     >
       <ContentList listContent={dataContent} />
     </ViewScreen>

@@ -66,7 +66,7 @@ const BreadcrumbsStyled = styled.div<{ $imageCover?: string }>`
   div.bread-crumbs-image {
     margin-bottom: 20px;
     display: flex;
-    min-height: 400px;
+    min-height: 500px;
     flex-direction: column;
     justify-content: center;
     background-transition: 0.3s;
